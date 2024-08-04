@@ -4,6 +4,7 @@ services:
   instant-ngp:
     # image: instantngp:latest
     image: kindredbluespirit/instant-ngp:v1
+    container_name: instant-ngp
     # build:
     #   context: ..
     #   dockerfile: ./.devcontainer/Dockerfile
