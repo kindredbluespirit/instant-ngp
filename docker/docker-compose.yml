@@ -20,7 +20,7 @@ services:
       - /tmp/.X11-unix:/tmp/.X11-unix
       - /tmp:/tmp
       - $HOME/.Xauthority:/root/.Xauthority
-    working_dir: /volume
+    working_dir: /app
     # command: /bin/bash
     command: tail -f /dev/null
     deploy:
